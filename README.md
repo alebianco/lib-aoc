@@ -2,6 +2,7 @@
 
 [![NPM Package Version](https://img.shields.io/github/package-json/v/alebianco/lib-aoc?logo=npm)](package.json)
 [![License](https://img.shields.io/github/license/alebianco/lib-aoc)](LICENSE.txt)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 A growing collection of utilities to partecipate in [Advent of Code](https://adventofcode.com/) and other coding puzzles.
 
