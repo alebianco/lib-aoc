@@ -24,9 +24,16 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
+    "prepare": "husky install",
+    "precommit": "lint-staged --verbose --allow-empty",
     "format": "standard --fix | snazzy"
   },
+  "lint-staged": {
+    "*.js": "standard --fix"
+  },
   "devDependencies": {
+    "husky": "~8.0.3",
+    "lint-staged": "~13.1.0",
     "snazzy": "~9.0.0",
     "standard": "~17.0.0"
   }
