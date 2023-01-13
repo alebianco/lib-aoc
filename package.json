@@ -26,15 +26,18 @@
   "scripts": {
     "prepare": "husky install",
     "precommit": "lint-staged --verbose --allow-empty",
-    "format": "standard --fix | snazzy"
+    "format": "standard --fix | snazzy",
+    "test": "node --test | tap-mocha-reporter spec"
   },
   "lint-staged": {
-    "*.js": "standard --fix"
+    "*.js": "standard --fix",
+    "*.test.js": "node --test"
   },
   "devDependencies": {
     "husky": "~8.0.3",
     "lint-staged": "~13.1.0",
     "snazzy": "~9.0.0",
-    "standard": "~17.0.0"
+    "standard": "~17.0.0",
+    "tap-mocha-reporter": "~5.0.3"
   }
 }
