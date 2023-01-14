@@ -78,4 +78,5 @@ See [LICENSE.txt](LICENSE.txt) for more information.
 
 ## Acknowledgments
 
-> ...
+The `itertools` package is heavily inspired by [Python's itertools library](https://docs.python.org/3/library/itertools.html)
+and [Rust's itertools crate](https://docs.rs/itertools/latest/itertools/).
