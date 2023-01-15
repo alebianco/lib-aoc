@@ -1,0 +1,65 @@
+{
+  "plugins": [
+    "plugins/markdown"
+  ],
+  "sourceType": "module",
+  "source": {
+    "include": ["src"],
+    "includePattern": "\\.js$",
+    "excludePattern": "(node_modules/)"
+  },
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "opts": {
+    "readme": "README.md",
+    "package": "package.json",
+    "template": "node_modules/docdash",
+    "encoding": "utf8",
+    "destination": "out/",
+    "recurse": true
+  },
+  "markdown": {
+    "parser": "gfm",
+    "hardwrap": false,
+    "idInHeadings": true
+  },
+  "templates": {
+    "cleverLinks": true,
+    "default": {
+      "includeDate": false,
+      "outputSourceFiles": false
+    }
+  },
+  "docdash": {
+    "meta": {
+      "title": "Lib AOC",
+      "description": "A growing collection of utilities to partecipate in Advent of Code and other coding puzzles",
+      "keyword": "coding challenge, puzzle, advent of code, aoc"
+    },
+    "search": true,
+    "collapse": false,
+    "wrap": false,
+    "sectionOrder": [
+      "Modules",
+      "Namespaces",
+      "Classes",
+      "Interfaces",
+      "Mixins",
+      "Events",
+      "Externals",
+      "Tutorials"
+    ],
+    "typedefs": true,
+    "removeQuotes": "trim",
+    "ShortenTypes": true,
+    "menu": {
+      "Github": {
+        "href": "https://github.com/alebianco/lib-aoc",
+        "target": "_blank",
+        "class": "menu-item",
+        "id": "github_link"
+      }
+    }
+  }
+}

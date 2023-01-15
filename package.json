@@ -27,14 +27,17 @@
     "prepare": "husky install",
     "precommit": "lint-staged --verbose --allow-empty",
     "format": "standard --fix | snazzy",
-    "test": "node --test | tap-mocha-reporter spec"
+    "test": "node --test | tap-mocha-reporter spec",
+    "generate-docs": "jsdoc --configure jsdoc.json"
   },
   "lint-staged": {
     "*.js": "standard --fix",
     "*.test.js": "node --test"
   },
   "devDependencies": {
+    "docdash": "~2.0.1",
     "husky": "~8.0.3",
+    "jsdoc": "~4.0.0",
     "lint-staged": "~13.1.0",
     "snazzy": "~9.0.0",
     "standard": "~17.0.0",
