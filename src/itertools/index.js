@@ -8,6 +8,10 @@
  * @module itertools
  *
  * @borrows count
+ * @borrows naturals
+ * @borrows evens
+ * @borrows odds
  */
 
 export { count } from './count.js'
+export { naturals, evens, odds } from './numbers.js'
