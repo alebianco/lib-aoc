@@ -27,14 +27,24 @@
     "prepare": "husky install",
     "precommit": "lint-staged --verbose --allow-empty",
     "format": "standard --fix | snazzy",
-    "test": "node --test | tap-mocha-reporter spec",
+    "test": "node --test src | tap-mocha-reporter spec",
+    "coverage": "c8 npm test",
     "generate-docs": "jsdoc --configure jsdoc.json"
   },
   "lint-staged": {
     "*.js": "standard --fix",
     "*.test.js": "node --test"
   },
+  "c8": {
+    "src": ["src"],
+    "check-coverage": true,
+    "per-file": true,
+    "line": 90,
+    "functions": 100,
+    "branches": 100
+  },
   "devDependencies": {
+    "c8": "~7.12.0",
     "docdash": "~2.0.1",
     "husky": "~8.0.3",
     "jsdoc": "~4.0.0",
