@@ -15,6 +15,7 @@
  * @borrows isIterable
  * @borrows take
  * @borrows drop
+ * @borrows range
  */
 
 export { count } from './count.js'
@@ -23,3 +24,4 @@ export { from } from './from.js'
 export { isIterable } from './isIterable.js'
 export { take } from './take.js'
 export { drop } from './drop.js'
+export { range } from './range.js'
