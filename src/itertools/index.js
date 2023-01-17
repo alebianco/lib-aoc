@@ -21,6 +21,7 @@
  * @borrows every
  * @borrows some
  * @borrows equal
+ * @borrows find
  */
 
 export { count } from './count.js'
@@ -35,3 +36,4 @@ export { filter } from './filter.js'
 export { every } from './every.js'
 export { some } from './some.js'
 export { equal } from './equal.js'
+export { find } from './find.js'
