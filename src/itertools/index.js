@@ -25,6 +25,7 @@
  * @borrows map
  * @borrows flatMap
  * @borrows reduce
+ * @borrows forEach
  */
 
 export { count } from './count.js'
@@ -43,3 +44,4 @@ export { find } from './find.js'
 export { map } from './map.js'
 export { flatMap } from './flatMap.js'
 export { reduce } from './reduce.js'
+export { forEach } from './forEach.js'
