@@ -24,6 +24,7 @@
  * @borrows find
  * @borrows map
  * @borrows flatMap
+ * @borrows reduce
  */
 
 export { count } from './count.js'
@@ -41,3 +42,4 @@ export { equal } from './equal.js'
 export { find } from './find.js'
 export { map } from './map.js'
 export { flatMap } from './flatMap.js'
+export { reduce } from './reduce.js'
