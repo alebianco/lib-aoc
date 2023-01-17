@@ -18,6 +18,7 @@
  * @borrows range
  * @borrows contains
  * @borrows filter
+ * @borrows every
  */
 
 export { count } from './count.js'
@@ -29,3 +30,4 @@ export { drop } from './drop.js'
 export { range } from './range.js'
 export { contains } from './contains.js'
 export { filter } from './filter.js'
+export { every } from './every.js'
