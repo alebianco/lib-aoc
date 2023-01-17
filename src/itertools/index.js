@@ -17,6 +17,7 @@
  * @borrows drop
  * @borrows range
  * @borrows contains
+ * @borrows filter
  */
 
 export { count } from './count.js'
@@ -27,3 +28,4 @@ export { take } from './take.js'
 export { drop } from './drop.js'
 export { range } from './range.js'
 export { contains } from './contains.js'
+export { filter } from './filter.js'
