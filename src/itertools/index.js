@@ -16,6 +16,7 @@
  * @borrows take
  * @borrows drop
  * @borrows range
+ * @borrows contains
  */
 
 export { count } from './count.js'
@@ -25,3 +26,4 @@ export { isIterable } from './isIterable.js'
 export { take } from './take.js'
 export { drop } from './drop.js'
 export { range } from './range.js'
+export { contains } from './contains.js'
