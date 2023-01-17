@@ -11,7 +11,11 @@
  * @borrows naturals
  * @borrows evens
  * @borrows odds
+ * @borrows from
+ * @borrows isIterable
  */
 
 export { count } from './count.js'
 export { naturals, evens, odds } from './numbers.js'
+export { from } from './from.js'
+export { isIterable } from './isIterable.js'
