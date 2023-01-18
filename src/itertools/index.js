@@ -30,6 +30,7 @@
  * @borrows enumerate
  * @borrows repeat
  * @borrows cycle
+ * @borrows tee
  */
 
 export { count } from './count.js'
@@ -53,3 +54,4 @@ export { toArray } from './toArray.js'
 export { enumerate } from './enumerate.js'
 export { repeat } from './repeat.js'
 export { cycle } from './cycle.js'
+export { tee } from './tee.js'
