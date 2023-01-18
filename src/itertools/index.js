@@ -28,6 +28,7 @@
  * @borrows forEach
  * @borrows toArray
  * @borrows enumerate
+ * @borrows repeat
  */
 
 export { count } from './count.js'
@@ -49,3 +50,4 @@ export { reduce } from './reduce.js'
 export { forEach } from './forEach.js'
 export { toArray } from './toArray.js'
 export { enumerate } from './enumerate.js'
+export { repeat } from './repeat.js'
