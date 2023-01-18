@@ -31,6 +31,8 @@
  * @borrows repeat
  * @borrows cycle
  * @borrows tee
+ * @borrows fork
+ * @borrows makeForkable
  */
 
 export { count } from './count.js'
@@ -55,3 +57,4 @@ export { enumerate } from './enumerate.js'
 export { repeat } from './repeat.js'
 export { cycle } from './cycle.js'
 export { tee } from './tee.js'
+export { fork, makeForkable } from './fork.js'
