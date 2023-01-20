@@ -80,7 +80,10 @@ See [LICENSE.txt](LICENSE.txt) for more information.
 
 The `itertools` package is heavily inspired by:
 
-- [Python's itertools library](https://docs.python.org/3/library/itertools.html)
-- [Rust's itertools crate](https://docs.rs/itertools/latest/itertools/)
-- [JavaScript's port of itertools](https://github.com/nvie/itertools.js)
 - [TC39 Iterator Helpers proposal](https://github.com/tc39/proposal-iterator-helpers)
+- [JavaScript's package itertools](https://github.com/nvie/itertools.js)
+- [JavaScript's package forkable-iterator](https://github.com/tjenkinson/forkable-iterator)
+- [Python's itertools library](https://docs.python.org/3/library/itertools.html)
+- [Python's more-itertools library](https://more-itertools.readthedocs.io/en/stable/)
+- [Rust's itertools crate](https://docs.rs/itertools/latest/itertools/)
+- [Rust's iterator trait](https://doc.rust-lang.org/std/iter/trait.Iterator.html)
