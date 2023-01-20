@@ -17,12 +17,11 @@
  * from(true); // throws TypeError
  *
  * @template T
- * @param {Iterable<T>|Iterator<T>} value the iterable to get the iterator from
- * @returns {Iterator<T>} the iterator for the requested iterable
+ * @param {Iterable<T>} value the iterable to get the iterator from
+ * @returns {IterableIterator<T>} the iterator for the requested iterable
  *
- * @throws {TypeError} when the value provided is neither {@link Iterable} or {@link Iterator}
+ * @throws {TypeError} when the value provided is not an {@link Iterable}
  */
 export function from (value) {
-  if (value != null && 'next' in Object(value) && typeof value.next === 'function') return value
-  else return value[Symbol.iterator]()
+  return value[Symbol.iterator]()
 }
