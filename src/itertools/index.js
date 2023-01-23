@@ -40,6 +40,7 @@
  * @borrows max
  * @borrows minmax
  * @borrows chain
+ * @borrows sorted
  */
 
 export { count } from './count.js'
@@ -72,3 +73,4 @@ export { min } from './min.js'
 export { max } from './max.js'
 export { minmax } from './minmax.js'
 export { chain } from './chain.js'
+export { sorted } from './sorted.js'
