@@ -36,6 +36,7 @@
  * @borrows slice
  * @borrows tail
  * @borrows forget
+ * @borrows min
  */
 
 export { count } from './count.js'
@@ -64,3 +65,4 @@ export { fork, makeForkable } from './fork.js'
 export { slice } from './slice.js'
 export { tail } from './tail.js'
 export { forget } from './forget.js'
+export { min } from './min.js'
