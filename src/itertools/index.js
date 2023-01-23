@@ -38,6 +38,7 @@
  * @borrows forget
  * @borrows min
  * @borrows max
+ * @borrows minmax
  */
 
 export { count } from './count.js'
@@ -68,3 +69,4 @@ export { tail } from './tail.js'
 export { forget } from './forget.js'
 export { min } from './min.js'
 export { max } from './max.js'
+export { minmax } from './minmax.js'
